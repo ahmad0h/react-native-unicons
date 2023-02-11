@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilEdit = props => {
+const Uil0Plus = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -17,14 +17,14 @@ const UilEdit = props => {
   );
 };
 
-UilEdit.propTypes = {
+Uil0Plus.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilEdit.defaultProps = {
+Uil0Plus.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilEdit;
+export default Uil0Plus;

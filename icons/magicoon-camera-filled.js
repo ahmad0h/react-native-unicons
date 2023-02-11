@@ -2,7 +2,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 import PropTypes from "prop-types";
 
-const UilShare = props => {
+const Uil3Plus = props => {
   const { color, size, ...otherProps } = props;
   return (
     <Svg
@@ -12,19 +12,19 @@ const UilShare = props => {
       fill={color}
       {...otherProps}
     >
-      <Path d="M20.75,7V17A4.756,4.756,0,0,1,16,21.75H12a.75.75,0,0,1,0-1.5h4A3.254,3.254,0,0,0,19.25,17V7A3.254,3.254,0,0,0,16,3.75H12a.75.75,0,0,1,0-1.5h4A4.756,4.756,0,0,1,20.75,7Zm-6.22,4.47-4-4A.75.75,0,0,0,9.47,8.531l2.719,2.719H4a.75.75,0,0,0,0,1.5h8.189L9.47,15.47a.75.75,0,0,0,1.06,1.061l4-4A.75.75,0,0,0,14.53,11.47Z" />
+      <Path d="M14,13a2,2,0,1,1-2-2A2.006,2.006,0,0,1,14,13Zm7.5-2v5A4.507,4.507,0,0,1,17,20.5H7A4.507,4.507,0,0,1,2.5,16V11A4.5,4.5,0,0,1,6.73,6.51l1.26-1.9A2.513,2.513,0,0,1,10.07,3.5h3.86a2.513,2.513,0,0,1,2.08,1.11l1.26,1.9A4.5,4.5,0,0,1,21.5,11ZM16,13a4,4,0,1,0-4,4A4,4,0,0,0,16,13Zm3-3a1,1,0,1,0-1,1A1,1,0,0,0,19,10Z" />
     </Svg>
   );
 };
 
-UilShare.propTypes = {
+Uil3Plus.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 };
 
-UilShare.defaultProps = {
+Uil3Plus.defaultProps = {
   color: "currentColor",
   size: "24"
 };
 
-export default UilShare;
+export default Uil3Plus;
